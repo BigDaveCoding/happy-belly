@@ -21,7 +21,7 @@
         </style>
     @endif
 </head>
-<body>
+<body class="font-main-fredoka bg-bg-color">
 {{ $slot }}
 </body>
 </html>
