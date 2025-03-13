@@ -13,7 +13,7 @@ class IngredientSeeder extends Seeder
      */
     public function run(): void
     {
-        for ($i = 0; $i < 10; $i++) {
+        for ($i = 0; $i < 100; $i++) {
             DB::table('ingredients')->insert([
                 'name' => fake()->word(),
                 'food_group' => fake()->word(),
